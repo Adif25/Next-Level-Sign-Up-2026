@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | Next Level Youth Leadership Conference</title>
+  <meta name="description" content="Register for free for the Next Level youth leadership conference, presented by City of Wilmington Parks & Recreation." />
+  <link rel="icon" href="assets/parks-rec.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html">
+        <img src="assets/parks-rec.png" alt="Wilmington Parks & Recreation" />
+        <span class="brand__text">
+          <strong>Next Level</strong>
+          <span>Wilmington Youth Leadership</span>
+        </span>
+      </a>
+      <button class="nav__toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="signup.html" class="active">Sign Up</a>
+        <a href="signup.html" class="btn btn--gold btn--sm">Register Free →</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero" style="padding-bottom:70px;">
+    <div class="container">
+      <span class="eyebrow on-dark">★ Free Registration</span>
+      <h1>Reserve your spot.</h1>
+      <p>You're one quick form away from joining Wilmington's next generation of leaders. It takes about two minutes — and it's completely free.</p>
+    </div>
+  </section>
+
+  <!-- ===== FORM ===== -->
+  <section class="section" style="padding-top:48px;">
+    <div class="container form-wrap">
+      <div class="form-card reveal">
+        <div class="form-card__top">
+          <div class="ico">📝</div>
+          <div>
+            <h2>Next Level Registration</h2>
+            <p>Fill out the form below to lock in your free spot. Your responses are saved automatically.</p>
+          </div>
+        </div>
+        <!-- Google Form embed (connected to your sign-up sheet) -->
+        <iframe
+          class="form-frame"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdC0l8-iRM9ifC_kkS81Z0jmi9LVDj-b0TWhw0VnyEzZuiPwg/viewform?embedded=true"
+          title="Next Level registration form"
+          loading="lazy">
+          Loading…
+        </iframe>
+        <div class="form-fallback">
+          Form not loading?
+          <a href="https://forms.gle/FC948yytNdaPPU8AA" target="_blank" rel="noopener" style="color:var(--blue-600);font-weight:700;">Open the registration form in a new tab →</a>
+        </div>
+      </div>
+
+      <p style="text-align:center;color:var(--muted);margin-top:26px;font-size:.95rem;">
+        Questions about registration? Email
+        <a href="mailto:parksandrec@wilmingtonde.gov" style="color:var(--blue-600);font-weight:600;">parksandrec@wilmingtonde.gov</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="assets/parks-rec.png" alt="" style="height:46px;background:#fff;border-radius:10px;padding:5px;" />
+          <span class="brand__text">
+            <strong>Next Level</strong>
+            <span>Wilmington Youth Leadership</span>
+          </span>
+        </a>
+        <p>Presented by the City of Wilmington Department of Parks &amp; Recreation — investing in young leaders since 1883.</p>
+        <div class="footer__logos">
+          <img src="assets/wilmington-seal.png" alt="City of Wilmington" />
+          <img src="assets/parks-rec.png" alt="Parks &amp; Recreation" />
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About the Conference</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="https://www.wilmingtonde.gov/" target="_blank" rel="noopener">WilmingtonDE.gov</a></li>
+          <li><a href="signup.html">Register Now</a></li>
+          <li><a href="mailto:parksandrec@wilmingtonde.gov">Contact Parks &amp; Rec</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year">2026</span> City of Wilmington Parks &amp; Recreation. All rights reserved.</span>
+      <span>Next Level Youth Leadership Conference</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
